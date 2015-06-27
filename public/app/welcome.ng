@@ -1,0 +1,23 @@
+<div class="welcome">
+    <div>
+        <div class="welcome-image">
+            <a href="/images/welcome-image.jpg" target="_blank">
+                <img src="/images/welcome-image.jpg" />
+            </a>
+        </div>
+        <div>
+            <p>
+                Thank you so much for visiting our wedding website! We are so excited to
+                celebrate our special day with our family and friends. This website
+                contains wedding day details, travel information, and much more - check
+                back for updates!
+            </p>
+            <p>
+                <b>A Special Note for Out-Of-Town Guests:</b><br/>
+                Please take a look at the Travel & Accommodations sections of our website
+                to find useful information about transportation and hotels.
+            </p>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>

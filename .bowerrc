@@ -1,0 +1,8 @@
+ {
+   "directory": "public/components",
+   "json": "bower.json",
+   "searchpath": [
+       "https://bower.herokuapp.com"
+   ],
+   "shorthand_resolver": "git://github.com/{{{ organization }}}/{{{ package }}}.git"
+}

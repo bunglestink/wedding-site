@@ -1,0 +1,16 @@
+<div class="events">
+    <h3>Wedding Events</h3>
+    <div class="events-content">
+        <div class="events-details-header">Our ceremony and reception will both be held at Greystone Fields.</div>
+        <div class="events-details-item">August 1, 2015</div>
+        <div class="events-details-item">4:30 pm</div>
+        <div class="events-details-item">Greystone Fields</div>
+        <div class="events-details-item">4085 Sandy Hill Road</div>
+        <div class="events-details-item">Gibsonia, PA 15044</div>
+        <div class="events-details-item"><a target="_blank" href="http://maps.google.com/maps?daddr=4085 Sandy Hill Road,Gibsonia,PA,15044,US">Get Directions »</a></div>
+    </div>
+    <iframe class="events-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.1090059123626!2d-79.92055289999995!3d40.6715671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4065fa7a7cb2bd4d%3A0xc069af7ca9ab40ac!2sGreystone+Fields!5e0!3m2!1sen!2sus!4v1435439753905"
+            frameborder="0"
+            allowfullscreen></iframe>
+</div>

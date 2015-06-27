@@ -1,0 +1,68 @@
+<div class="rsvp">
+    <h3 class="rsvp-header">RSVP</h3>
+    <div class="form" ng-if="ctrl.formState === 'COMPLETE'">
+        Thank you for RSVP-ing!
+        <span ng-if="ctrl.isAttending()">We look forward to seeing you at the wedding!</span>
+        <span ng-if="!ctrl.isAttending()">Sorry to hear you can't attend :(</span>
+    </div>
+    <div class="form" ng-if="ctrl.formState === 'NEW' || ctrl.formState === 'SUBMITTING'">
+        <ul ng-if="ctrl.errors.length" class="errors">
+            <li ng-repeat="error in ctrl.errors">{{error}}</li>
+        </ul>
+        <div>
+            <label>Name</label>
+            <input placeholder="First" ng-model="ctrl.firstName" />
+            <input placeholder="Last" ng-model="ctrl.lastName" />
+        </div>
+        <div>
+            <label>Email Address</label>
+            <input placeholder="me@mail.com" ng-model="ctrl.emailAddress" />
+        </div>
+        <div>
+            <label>Number of guests (including yourself)</label>
+            <input type="number" min="1"  ng-model="ctrl.numberOfGuests" />
+        </div>
+        <div ng-repeat="guest in ctrl.guests">
+            <div>
+                <label>Name</label>
+                <input placeholder="First" ng-model="guest.firstName" />
+                <input placeholder="Last" ng-model="guest.lastName" />
+            </div>
+        </div>
+        <div>
+            <label>Attending Ceremony</label>
+            <input type="radio" ng-model="ctrl.attendingCeremony" value="yes"> Yes
+            <input type="radio" ng-model="ctrl.attendingCeremony" value="no"> No
+        </div>
+        <div>
+            <label>Attending Reception</label>
+            <input type="radio" ng-model="ctrl.attendingReception" value="yes"> Yes
+            <input type="radio" ng-model="ctrl.attendingReception" value="no"> No
+        </div>
+        <div>
+            <label>Song Requests?</label>
+            <button ng-if="ctrl.songRequests.length < 3;" ng-click="ctrl.addSong()">Add</button>
+            <div ng-repeat="song in ctrl.songRequests">
+                <div>
+                    <label></label>
+                    <input placeholder="Song Name/Artist" ng-model="song.name" />
+                    <button ng-click="ctrl.removeSong(song)">Remove</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <label>Are you staying at the hotel Saturday night?</label>
+            <input type="radio" ng-model="ctrl.stayingAtHotel" value="yes"> Yes
+            <input type="radio" ng-model="ctrl.stayingAtHotel" value="no"> No
+        </div>
+        <div>
+            <label>Notes/Comments:</label>
+            <textarea  ng-model="ctrl.comments" cols="45"></textarea>
+        </div>
+        <div>
+            <label></label>
+            <button ng-click="ctrl.submit()"
+                    ng-disabled="ctrl.formState === 'SUBMITTING'">Submit!</button>
+        </div>
+    </div>
+</div>

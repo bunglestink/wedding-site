@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" ng-app="App">
+    <head>
+        <title>Julie and Kirk</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+        <base href="/">
+        <link href="style.css" rel="stylesheet" />
+        <link href='http://fonts.googleapis.com/css?family=Great+Vibes|Julius+Sans+One' rel='stylesheet' type='text/css'>
+        <script src="/components/angular/angular.js"></script>
+        <script src="/components/angular-animate/angular-animate.js"></script>
+        <script src="/components/angular-route/angular-route.js"></script>
+        <script src="/components/angular-sanitize/angular-sanitize.js"></script>
+        <script src="/app/app.js"></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="header">
+                <h2>August 1, 2015 • {{daysRemaining}} days</h2>
+                <h1>Julie &amp; Kirk Tie the Knot!</h1>
+                <h2>Welcome to our wedding website!</h2>
+            </div>
+            <div class="content-container">
+                <div class="navigation">
+                    <ul class="nav-list">
+                        <li><a class="nav-item" ng-href="#/">Welcome</a></li>
+                        <li><a class="nav-item" ng-href="#/rsvp">RSVP</a></li>
+                        <li><a class="nav-item" ng-href="#/registry">Registry</a></li>
+                        <li><a class="nav-item" ng-href="#/accommodations">Accommodations</a></li>
+                        <li><a class="nav-item" ng-href="#/events">Wedding Events</a></li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <div ng-view></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="footer">Julie is the best.</div>
+    </body>
+</html>

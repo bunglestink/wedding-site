@@ -1,0 +1,11 @@
+{
+  "name": "julieandkirk",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular-latest": "~1.4.1",
+    "angular-animate": "~1.4.1",
+    "angular-route": "~1.4.1",
+    "angular-sanitize": "~1.4.1"
+  },
+  "private": true
+}

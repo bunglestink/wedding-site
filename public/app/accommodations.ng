@@ -1,0 +1,36 @@
+<div class="accommodations">
+    <h3>Accommodations</h3>
+    <p>
+        We have reserved a room block at the Pittsburgh Marriott North for your
+        convenience. Please be sure to reserve your room as soon as possible to
+        receive the special discounted rate.  To receive the special rate, be sure
+        to use the booking link below or to ask for the Allan-Thompson Wedding
+        Block when calling reservations.
+    </p>
+    <p>
+        We will have a shuttle to transport guests from the hotel to the
+        ceremony/reception venue and then back to the hotel after the reception.
+        We plan to keep the party going at the hotel afterwards so whether you are
+        local or traveling from out of town, stay at the Marriott to celebrate
+        with us and don't worry about driving home that night!
+    </p>
+    <p>
+        The room block rate is $99.95 for a deluxe room with the option to add
+        a buffet breakfast Sunday morning for $5 per person/per room.
+    </p>
+    <div>
+        <div class="hotel-logo-container">
+            <a target="_blank" href="https://resweb.passkey.com/Resweb.do?mode=welcome_gi_new&amp;groupID=50819385">
+                <img src="/images/hotel-logo.png">
+            </a>
+        </div>
+        <div class="booking-details">
+            <div class="booking-details-item"><b>Pittsburgh Marriott North</b></div>
+            <div class="booking-details-item">100 Cranberry Woods Dr</div>
+            <div class="booking-details-item">Cranberry Township, PA 16066</div>
+            <div class="booking-details-item">(724) 772-3700</div>
+            <div class="booking-details-item"><a target="_blank" href="http://maps.google.com/maps?daddr=100 Cranberry Woods Dr,Cranberry Township,PA,16066,US">Get Directions »</a></div>
+            <div class="booking-details-item"><a target="_blank" href="https://resweb.passkey.com/Resweb.do?mode=welcome_gi_new&amp;groupID=50819385">Book Accommodation »</a></div>
+        </div>
+    </div>
+</div>

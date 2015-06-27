@@ -1,0 +1,156 @@
+html {
+    height: 100%;
+}
+h1 {
+    color: #4272b9;
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    font-weight: normal;
+}
+h2 {
+    font-family: 'Julius Sans One', sans-serif;
+}
+h1,h2,h3,h4,h5 {
+    margin: 0;
+}
+p {
+    margin-top: 0;
+}
+body {
+    background: rgb(250, 249, 236) url('/images/background-image.gif') repeat-x 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(66, 114, 185);
+}
+body .main-container {
+    background-color: white;
+    box-shadow: rgb(95, 95, 91) 0px 1px 15px 0px;
+    margin: 0 100px;
+}
+body .main-container .header {
+    text-align: center;
+}
+body .main-container .header h1,
+body .main-container .header h2 {
+    padding-bottom: 20px;
+}
+body .main-container .content-container {
+    padding: 20px;
+}
+body .main-container .content-container .navigation {
+    float: left;
+    width: 20%;
+}
+body .main-container .content-container .navigation .nav-list {
+    cursor: pointer;
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body .main-container .content-container .navigation .nav-list .nav-item {
+    display: block;
+    padding: 0 20px 20px 20px;
+    text-align: right;
+}
+body .main-container .content-container .content {
+    float: left;
+    width: 80%;
+}
+body .main-container .content-container .content h3 {
+    color: #4272b9;
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-align: center;
+}
+body .main-container .content-container .clear {
+    clear: both;
+}
+body .footer {
+    margin: 25px;
+    color: gray;
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
+}
+
+.welcome .welcome-image {
+    float: left;
+    max-width: 50%;
+    padding: 0 10px;
+}
+.welcome .welcome-image img {
+    max-width: 100%;
+}
+.accommodations .hotel-logo-container {
+    float: left;
+}
+.accommodations .booking-details {
+    margin-left: 250px;
+}
+.accommodations .booking-details .booking-details-item {
+    height: 25px;
+    vertical-align: middle;
+}
+.accommodations .booking-details .booking-details-item a {
+    color: rgb(66, 114, 185);
+}
+.events .events-content {
+    text-align: center;
+}
+.events .events-content .events-details-header {
+    font-weight: bold;
+    height: 35px;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+.events .events-content .events-details-item {
+    height: 25px;
+    vertical-align: middle;
+}
+.events .events-content .events-details-item a {
+    color: rgb(66, 114, 185);
+}
+.events .events-map {
+    border: 0;
+    height: 500px;
+    margin-top: 20px;
+    width: 100%;
+}
+.rsvp h3.rsvp-header {
+    font-size: 28px;
+}
+.rsvp .errors {
+    color: red;
+}
+.rsvp .form > div {
+    margin-bottom: 10px;
+}
+.rsvp .form > div * {
+    vertical-align: top;
+}
+.rsvp .form label {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    width: 200px;
+    text-align: right;
+}
+.registry .registry-content {
+    font-style: italic;
+    text-align: center;
+}
+.registry .registry-content .heart-image {
+    margin-top: 10px;
+}
+
