@@ -51,8 +51,15 @@
         this.errors = [];
         this.$http = $http;
         var self = this;
-        $scope.$watch('ctrl.numberOfGuests', function(count) {
-            if (!count && count !== 0) {
+        $scope.$watch('ctrl.numberOfGuests', function(count, oldCount) {
+            var regex = /^[0-9]?$/gi;
+            var isValid = count.toString().match(regex);
+            if (!isValid) {
+                self.numberOfGuests = oldCount;
+                count = old
+            }
+            if (!count) {
+                self.guests = [];
                 return;
             }
             if (count < 1) {

@@ -20,7 +20,7 @@
         </div>
         <div>
             <label>Number of guests (including yourself)</label>
-            <input type="number" min="1"  ng-model="ctrl.numberOfGuests" />
+            <input type="text" min="1" max="9" ng-model="ctrl.numberOfGuests" />
         </div>
         <div ng-repeat="guest in ctrl.guests">
             <div>
