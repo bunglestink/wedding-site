@@ -34,6 +34,8 @@ body .main-container {
     background-color: white;
     box-shadow: rgb(95, 95, 91) 0px 1px 15px 0px;
     margin: 0 100px;
+    min-width: 800px;
+    padding-top: 10px;
 }
 body .main-container .header {
     text-align: center;
