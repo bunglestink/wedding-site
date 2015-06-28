@@ -95,6 +95,7 @@
             comments: this.comments
         };
         var self = this;
+        self.formState = 'SUBMITTING';
         this.$http.post('/api/rsvp.php', body).then(function() {
             self.formState = 'COMPLETE';
         }, function() {
