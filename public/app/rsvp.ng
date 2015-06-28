@@ -20,11 +20,11 @@
         </div>
         <div>
             <label>Number of guests (including yourself)</label>
-            <input type="text" min="1" max="9" ng-model="ctrl.numberOfGuests" />
+            <input type="text" class="number-input" ng-model="ctrl.numberOfGuests" />
         </div>
         <div ng-repeat="guest in ctrl.guests">
             <div>
-                <label>Name</label>
+                <label>Guest Name {{$index+2}}</label>
                 <input placeholder="First" ng-model="guest.firstName" />
                 <input placeholder="Last" ng-model="guest.lastName" />
             </div>
