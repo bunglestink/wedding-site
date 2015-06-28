@@ -56,7 +56,7 @@
             var isValid = count.toString().match(regex);
             if (!isValid) {
                 self.numberOfGuests = oldCount;
-                count = old
+                count = oldCount
             }
             if (!count) {
                 self.guests = [];
